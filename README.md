@@ -18,6 +18,9 @@ It provides some simple queue apis (e.g. pop(), push()).
 `size(callback)` - get size 
 
 ```js
+
+var Queue = require('rpq');
+
 var queue = new Queue({ 
     key: 'my-queue-name',       // name of queue
     // server: '127.0.0.1',     // (optional) redis server
