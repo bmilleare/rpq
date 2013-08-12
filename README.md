@@ -12,7 +12,9 @@ It provides some simple queue apis (e.g. pop(), push()).
 ## Usage
 
 `pop(callback)` - pop an item from the queue
+
 `push(item, callback)` - push an item on the queue
+
 `size(callback)` - get size 
 
 ```js
